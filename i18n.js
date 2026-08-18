@@ -21,7 +21,7 @@ window.I18N = {
     /* hero */
     hero_eyebrow: "100% Ayurvedic · No Side Effects",
     hero_h1: "Rooted in tradition,<br/><em>made for</em> your daily wellness.",
-    hero_lede: "Three focused formulas, drawn from classical Ayurvedic herbs — for clearer hearing, lasting digestive comfort, and stronger hair. No fillers. No shortcuts. Just what the old texts got right.",
+    hero_lede: "Four focused formulas, drawn from classical Ayurvedic herbs — for clearer hearing, lasting digestive comfort, stronger hair, and lasting joint & muscle comfort. No fillers. No shortcuts. Just what the old texts got right.",
     hero_cta_shop: "Shop Now",
     hero_cta_contact: "Contact Us",
     hero_trust_1: "100% Natural",
@@ -40,7 +40,7 @@ window.I18N = {
 
     /* products */
     products_eyebrow: "Our Formulas",
-    products_h2: "Three remedies. One philosophy.",
+    products_h2: "Four remedies. One philosophy.",
     products_p: "Every batch is formulated with classical Ayurvedic herbs, checked for purity, and made without artificial additives.",
     tag_bestseller: "Best Seller",
     tag_liquidform: "Liquid Form",
@@ -50,6 +50,7 @@ window.I18N = {
     earveda_benefit2: "Relieves everyday discomfort",
     earveda_benefit3: "Promotes clear hearing",
     save_21: "Save 21%",
+    save_20: "Save 20%",
     addtocart_btn: "Buy Now",
     view_details_btn: "View Details",
 
@@ -135,6 +136,22 @@ window.I18N = {
     hairveda_benefit2: "Nourishes and soothes the scalp",
     hairveda_benefit3: "Lightweight — no mineral oil, parabens or silicones",
     tag_newlaunch: "New Launch",
+    tag_herbaloil: "Herbal Oil",
+
+    ing4_ginger_n: "Ginger",
+    ing4_ginger_d: "A warming classical root, traditionally used to ease stiffness and support flexible, comfortable movement.",
+    ing4_cinnamon_n: "Cinnamon",
+    ing4_cinnamon_d: "Traditionally valued for its warming touch, used to soothe tired muscles after a long day.",
+    ing4_blackpepper_n: "Black Pepper",
+    ing4_blackpepper_d: "Traditionally used for its deep, penetrating warmth on sore joints and muscles.",
+    ing4_rosemary_n: "Rosemary",
+    ing4_rosemary_d: "An aromatic herb traditionally used to relax muscles and refresh the senses during massage.",
+    pd_ingredients_p_orthoveda: "Ginger, Cinnamon, Black Pepper, Rosemary and other warming classical herbs — each chosen for a specific role in the formula.",
+    orthoveda_sub: "Ayurvedic Pain Relief Oil · 100 ml",
+    orthoveda_desc: "A warming Ayurvedic pain oil crafted with Ginger, Cinnamon, Black Pepper and Rosemary — traditionally used to ease body pain and stiffness, and to nourish tired muscles and joints.",
+    orthoveda_benefit1: "Helps relieve body pain and stiffness",
+    orthoveda_benefit2: "Nourishes muscles and joints",
+    orthoveda_benefit3: "Non-greasy formula, quick absorption",
 
     /* apothecary */
     apothecary_eyebrow: "From the Apothecary Shelf",
@@ -151,6 +168,8 @@ window.I18N = {
     herb_kutaj: "Kutaj",
     herb_arjuna: "Arjuna",
     herb_blackpepper: "Black Pepper",
+    herb_ginger: "Ginger",
+    herb_cinnamon: "Cinnamon",
     herb_more: "& more herbs",
 
     /* certifications */
@@ -253,6 +272,7 @@ window.I18N = {
     review_product_ear: "Ear Veda",
     review_product_piles: "Piles Veda",
     review_product_hair: "Hair Veda",
+    review_product_ortho: "Ortho Veda",
     review_rating_label: "Your Rating",
     review_rating_5: "★★★★★ Excellent",
     review_rating_4: "★★★★☆ Good",
@@ -293,6 +313,7 @@ window.I18N = {
     form_option_earveda: "Ear Veda — ₹2,999",
     form_option_pilesveda: "Piles Veda — ₹2,599",
     form_option_hairveda: "Hair Veda — ₹1,299",
+    form_option_orthoveda: "Ortho Veda — ₹1,999",
     form_option_both: "All Products",
     form_option_general: "General Enquiry",
     form_message_label: "Message",
@@ -313,6 +334,7 @@ window.I18N = {
     footer_earveda_link: "Ear Veda",
     footer_pilesveda_link: "Piles Veda",
     footer_hairveda_link: "Hair Veda",
+    footer_orthoveda_link: "Ortho Veda",
     footer_ingredients_link: "Ingredients",
     footer_about_link: "About Us",
     footer_reviews_link: "Reviews",
@@ -470,7 +492,7 @@ window.I18N = {
     /* hero */
     hero_eyebrow: "100% आयुर्वेदिक · कोई दुष्प्रभाव नहीं",
     hero_h1: "परंपरा में रचा-बसा,<br/><em>आपकी</em> रोज़ की सेहत के लिए बना।",
-    hero_lede: "शास्त्रीय आयुर्वेदिक जड़ी-बूटियों से बने तीन खास फॉर्मूले — बेहतर सुनने, स्थायी पाचन आराम और मज़बूत बालों के लिए। कोई फिलर नहीं। कोई शॉर्टकट नहीं। बस वही जो पुराने ग्रंथों ने सही बताया।",
+    hero_lede: "शास्त्रीय आयुर्वेदिक जड़ी-बूटियों से बने चार खास फॉर्मूले — बेहतर सुनने, स्थायी पाचन आराम, मज़बूत बालों और जोड़ों-मांसपेशियों के आराम के लिए। कोई फिलर नहीं। कोई शॉर्टकट नहीं। बस वही जो पुराने ग्रंथों ने सही बताया।",
     hero_cta_shop: "अभी खरीदें",
     hero_cta_contact: "संपर्क करें",
     hero_trust_1: "100% प्राकृतिक",
@@ -489,7 +511,7 @@ window.I18N = {
 
     /* products */
     products_eyebrow: "हमारे फॉर्मूले",
-    products_h2: "तीन उपचार। एक सोच।",
+    products_h2: "चार उपचार। एक सोच।",
     products_p: "हर बैच शास्त्रीय आयुर्वेदिक जड़ी-बूटियों से तैयार किया जाता है, शुद्धता की जांच होती है, और इसमें कोई कृत्रिम मिलावट नहीं होती।",
     tag_bestseller: "सबसे ज़्यादा बिकने वाला",
     tag_liquidform: "तरल रूप",
@@ -499,6 +521,7 @@ window.I18N = {
     earveda_benefit2: "रोज़मर्रा की तकलीफ से राहत देता है",
     earveda_benefit3: "स्पष्ट सुनने को बढ़ावा देता है",
     save_21: "21% की बचत",
+    save_20: "20% की बचत",
     addtocart_btn: "अभी खरीदें",
     view_details_btn: "पूरी जानकारी देखें",
 
@@ -584,6 +607,22 @@ window.I18N = {
     hairveda_benefit2: "स्कैल्प को पोषण और आराम देता है",
     hairveda_benefit3: "हल्का — कोई मिनरल ऑयल, पैराबेन या सिलिकॉन नहीं",
     tag_newlaunch: "नया लॉन्च",
+    tag_herbaloil: "हर्बल ऑयल",
+
+    ing4_ginger_n: "अदरक",
+    ing4_ginger_d: "एक गर्म तासीर वाली शास्त्रीय जड़, परंपरागत रूप से अकड़न कम करने और सहज गतिशीलता को सहारा देने के लिए उपयोग होती है।",
+    ing4_cinnamon_n: "दालचीनी",
+    ing4_cinnamon_d: "अपने गर्म स्पर्श के लिए जानी जाती है, थकी हुई मांसपेशियों को आराम देने के लिए परंपरागत रूप से उपयोग होती है।",
+    ing4_blackpepper_n: "काली मिर्च",
+    ing4_blackpepper_d: "जोड़ों और मांसपेशियों में गहरी, प्रभावी गर्माहट के लिए परंपरागत रूप से उपयोग होती है।",
+    ing4_rosemary_n: "रोज़मेरी",
+    ing4_rosemary_d: "एक सुगंधित जड़ी-बूटी, मालिश के दौरान मांसपेशियों को आराम देने और तरोताज़ा महसूस कराने के लिए परंपरागत रूप से उपयोग होती है।",
+    pd_ingredients_p_orthoveda: "अदरक, दालचीनी, काली मिर्च, रोज़मेरी और अन्य गर्म तासीर वाली शास्त्रीय जड़ी-बूटियां — हर एक फॉर्मूले में एक खास भूमिका के लिए चुनी गई है।",
+    orthoveda_sub: "आयुर्वेदिक पेन रिलीफ ऑयल · 100 मिली",
+    orthoveda_desc: "अदरक, दालचीनी, काली मिर्च और रोज़मेरी से तैयार एक गर्म तासीर वाला आयुर्वेदिक पेन ऑयल — परंपरागत रूप से शरीर के दर्द और अकड़न को कम करने और थकी मांसपेशियों व जोड़ों को पोषण देने के लिए उपयोग होता है।",
+    orthoveda_benefit1: "शरीर के दर्द और अकड़न से राहत में मदद करता है",
+    orthoveda_benefit2: "मांसपेशियों और जोड़ों को पोषण देता है",
+    orthoveda_benefit3: "नॉन-ग्रीज़ी फॉर्मूला, जल्दी सोखता है",
 
     /* apothecary */
     apothecary_eyebrow: "औषधि भंडार से",
@@ -600,6 +639,8 @@ window.I18N = {
     herb_kutaj: "कुटज",
     herb_arjuna: "अर्जुन",
     herb_blackpepper: "काली मिर्च",
+    herb_ginger: "अदरक",
+    herb_cinnamon: "दालचीनी",
     herb_more: "और भी जड़ी-बूटियां",
 
     /* certifications */
@@ -702,6 +743,7 @@ window.I18N = {
     review_product_ear: "इयर वेदा",
     review_product_piles: "पाइल्स वेदा",
     review_product_hair: "हेयर वेदा",
+    review_product_ortho: "ऑर्थो वेदा",
     review_rating_label: "आपकी रेटिंग",
     review_rating_5: "★★★★★ उत्कृष्ट",
     review_rating_4: "★★★★☆ अच्छा",
@@ -742,6 +784,7 @@ window.I18N = {
     form_option_earveda: "इयर वेदा — ₹2,999",
     form_option_pilesveda: "पाइल्स वेदा — ₹2,599",
     form_option_hairveda: "हेयर वेदा — ₹1,299",
+    form_option_orthoveda: "ऑर्थो वेदा — ₹1,999",
     form_option_both: "सभी प्रोडक्ट",
     form_option_general: "सामान्य पूछताछ",
     form_message_label: "संदेश",
@@ -762,6 +805,7 @@ window.I18N = {
     footer_earveda_link: "इयर वेदा",
     footer_pilesveda_link: "पाइल्स वेदा",
     footer_hairveda_link: "हेयर वेदा",
+    footer_orthoveda_link: "ऑर्थो वेदा",
     footer_ingredients_link: "सामग्री",
     footer_about_link: "हमारे बारे में",
     footer_reviews_link: "समीक्षाएं",

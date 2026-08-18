@@ -456,6 +456,9 @@
   });
 
   // ---------- Enquiry form ----------
+  // Google Apps Script Web App URL — logs every enquiry as a new row in a Google Sheet.
+  // If you redeploy the Apps Script, update this URL to the new /exec link.
+  const ENQUIRY_SHEET_URL = 'https://script.google.com/macros/s/AKfycbyXhWCnT_zus25hVIqRnlvWxrkULhzJtxOZrTCm3zxJmnTUMvJTYIsS7SJL4FTV024F/exec';
   const enquiryForm = document.getElementById('enquiryForm');
   if(enquiryForm){
     enquiryForm.addEventListener('submit', (e) => {
@@ -464,6 +467,19 @@
       const phone = document.getElementById('ePhone').value.trim();
       const product = document.getElementById('eProduct').value;
       const msg = document.getElementById('eMsg').value.trim();
+
+      // Send to Google Sheet (fire-and-forget — Apps Script web apps don't send
+      // CORS headers back, so the response can't be read from here; 'no-cors'
+      // still lets the request go through and the row gets added).
+      const sheetData = new FormData();
+      sheetData.append('name', name);
+      sheetData.append('phone', phone);
+      sheetData.append('product', product);
+      sheetData.append('message', msg);
+      sheetData.append('page', window.location.pathname);
+      sheetData.append('timestamp', new Date().toISOString());
+      fetch(ENQUIRY_SHEET_URL, { method: 'POST', mode: 'no-cors', body: sheetData }).catch(() => {});
+
       const subject = encodeURIComponent('Enquiry from ' + name + ' — ' + product);
       const body = encodeURIComponent(
         'Name: ' + name + '\n' +
